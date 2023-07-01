@@ -1,0 +1,654 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navBar{
+    background-color:rgb(228,227,242);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+   box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+   position: sticky;
+    
+    }
+.navLogo{
+    display: flex;
+    align-items: center;
+    padding-left: 90px; 
+
+} 
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   flex-grow: 1;
+}
+.navBar .container .containerItems{
+    padding: 40px;
+    
+    
+}
+.navBar .container .containerItems:last-child a i.fa-solid.fa-bag-shopping{
+    padding-right: 40px;
+}
+.navBar .container .containerItems a{
+   text-decoration: none;   
+}
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    color: #000;
+}
+a:hover{
+    color:#006666;
+}
+.navBar .container .containerItems:last-child a i.fa-solid.fa-bag-shopping:hover {
+    color:#006666;
+}
+.navBar .container .containerItems a {
+    position: relative;
+    text-decoration: none;
+}
+
+.navBar .container .containerItems a::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color:#006666;
+    transition: width 0.3s ease-in-out;
+}
+
+.navBar .container .containerItems a:hover::after {
+    width: 50%;
+}
+.banner1{
+    position: relative;
+}
+.banContent1{
+    position: absolute;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 50px;
+    font-weight: bolder;
+    top: 95px;
+    left: 70px;
+}
+.banContent2{
+    position: absolute;
+    color:#000 ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 70px;
+    font-weight: bolder;
+    top: 170px;
+    left: 70px;
+}
+.banContent3{
+    position: absolute;
+    color: #006666 ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 70px;
+    font-weight: bolder;
+    top: 245px;
+    left: 70px;
+}
+.banContent4{
+  position: absolute;  
+  top: 360px;
+  left: 80px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-weight: lighter;
+}
+.submitimg{
+    position: absolute;
+    top:405px ;
+    left: 80px;
+}
+.banContent5{
+    position: absolute;
+    top: 415px;
+    left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #006666;
+}
+
+.card-container1 {
+    display: flex;
+    margin-top: 80px;
+  }
+  
+.card1 {
+    width: calc(100% / 6);
+    border: 1px solid gainsboro;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 5px;
+  }
+.card-container1 .card1:first-child {
+    margin-left: 15px; 
+  }
+  
+.card1:last-child {
+    margin-right: 15px; 
+  }
+  
+  .card1 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+.card1 .p1 {
+    margin: 0;
+    background-color:rgb(245,220,235);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #006666;
+    font-weight: bold;
+  }
+.card1 .p2 {
+    margin: 0;
+    background-color:rgb(183,215,127);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #006666;
+    font-weight: bold;
+  }
+.card1 .p3 {
+    margin: 0;
+    background-color:rgb(189,216,234);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #006666;
+    font-weight: bold;
+  }
+.card1 .p4 {
+    margin: 0;
+    background-color:lavender;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #006666;
+    font-weight: bold;
+  }
+.card1 .p5 {
+    margin: 0;
+    background-color:rgb(255,182,193);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #006666;
+    font-weight: bold;
+  }
+  .card1 .p6 {
+    margin: 0;
+    background-color:rgb(240,228,221);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #006666;
+    font-weight: bold;
+  }
+.afterBannerText1{
+    padding-top: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    
+}
+.afterBannerText2{
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    /* font-size: 60px; */
+    text-align: center;
+    color:  #556b2f;
+    
+}
+
+
+.card-container2 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.card2 {
+  position: relative;
+  width: calc(100% / 4);
+  border: 1px solid gainsboro;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-container2 .card2:first-child {
+  margin-left: 50px; 
+}
+
+.card2:last-child {
+  margin-right: 50px; 
+}
+
+.cardimg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.p7 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: grey;
+  text-align: left;
+}
+
+.p8 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 5px;
+  letter-spacing: 3px;
+}
+
+.stars {
+  text-align: left;
+  margin-top: 7px;
+}
+
+.price {
+  color: #006666;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.cart {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ccffe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-cart-shopping {
+  color: #006666;
+  font-size: 20px;
+}
+
+.card-container3 {
+  display: flex;
+  margin-top: 50px;
+}
+.card3 {
+  position: relative;
+  width: calc(100% / 4);
+  border: 1px solid gainsboro;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-container3 .card3:first-child {
+  margin-left: 50px; 
+}
+
+.card3:last-child {
+  margin-right: 50px; 
+}
+
+.banner2{
+  position: relative;
+}
+.banContent10{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 25px;
+  font-weight: bolder;
+  top: 55px;
+  left: 680px;
+}
+.banContent11{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 60px;
+  font-weight: bolder;
+  top: 115px;
+  left: 120px;
+}
+.explorebut{
+  position: absolute;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px 40px;
+  border-radius: 5px;
+  top:250px ;
+  left: 690px;
+}
+.afterBannerText3{
+  padding-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  
+}
+.afterBannerText4{
+  padding-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  /* font-size: 60px; */
+  text-align: center;
+  color:  #556b2f;
+  
+}
+
+.card-container4 , .card-container5 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.naveenConImg1{
+  position: relative;
+}
+
+.caption-text1{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 25px;
+  font-weight: 700;
+  top: 50px;
+  left: 50px;
+}
+.caption-text2{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 45px;
+  font-weight: bolder;
+  top: 80px;
+  left: 50px;
+
+}
+.caption-text3{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 15px;
+  font-weight: 500;
+  top: 150px;
+  left: 52px;
+
+}
+.learnbut{
+  position: absolute;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px 30px;
+  background-color: #ffb749;
+  border-color: white;
+  color: white;
+  top:210px ;
+  left: 52px;
+}
+.naveenConImg2{
+  position: relative;
+}
+
+.caption-text4{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 25px;
+  font-weight: 700;
+  top: 50px;
+  left: 50px;
+}
+.caption-text5{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 45px;
+  font-weight: bolder;
+  top: 80px;
+  left: 50px;
+
+}
+.caption-text6{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 15px;
+  font-weight: 500;
+  top: 150px;
+  left: 52px;
+}
+.collbut{
+  position: absolute;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px 30px;
+  background-color: #006666;
+  border-style: none;
+  color: white;
+  top:210px ;
+  left: 52px;
+}
+
+.naveenContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  margin-top: 80px;
+}
+.naveenConImg1 img,
+.naveenConImg2 img {
+  width: 700px; 
+  height: 300px; 
+  object-fit: cover; 
+}
+
+
+.erumaContainer {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.erumaConImg {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.erumaConImg img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.erumaConImg{
+  position: relative;
+}
+
+.caption-text7{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 30px;
+  font-weight: 700;
+  top: 80px;
+  left: 30px;
+}
+.caption-text8{
+  position: absolute;
+  color:#b4390a;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 18px;
+  font-weight: 700;
+  top: 140px;
+  left: 30px;
+}
+.caption-text9{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 30px;
+  font-weight: 700;
+  top: 60px;
+  left: 30px;
+}
+.caption-text10{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 30px;
+  font-weight: 700;
+  top: 120px;
+  left: 30px;
+}
+.caption-text11{
+  position: absolute;
+  color:#b4390a;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 18px;
+  font-weight: 700;
+  top: 175px;
+  left: 30px;
+}
+.caption-text12{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 30px;
+  font-weight: 700;
+  top: 90px;
+  left: 30px;
+}
+.caption-text13{
+  position: absolute;
+  color:#b4390a;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 18px;
+  font-weight: 700;
+  top: 145px;
+  left: 30px;
+}
+.baaduContainer {
+  background-color: #001c41;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.baaduContainer img {
+  margin-left: 200px;
+}
+
+.baaducontent1{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 40px;
+  font-weight: bolder;
+  top: 45px;
+  left: 80px;
+}
+.baaducontent2{
+  position: absolute;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 15px;
+  font-weight: 500;
+  top: 115px;
+  left: 80px;
+}
+.special{
+  color: #ffb749;
+}
+
+
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pannicontainer{
+  background-color: #ececec;
+  display: flex;
+  line-height: 55px;
+  
+}
+.panni1{
+ margin-top: 40px;
+}
+.panni2{
+  margin-left: 35px;
+}
+.panni3{
+  margin-left: 90px;
+}
+.panni4{
+  margin-left: 100px;
+}
+.text{
+  color: #808080;
+}
+.text1{
+  color: #595959;
+}
+.contact{
+  font-weight: bold;
+  font-size: 20px;
+}
+.follow{
+  font-weight: bold;
+  font-size: 20px;
+}
+.about{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
