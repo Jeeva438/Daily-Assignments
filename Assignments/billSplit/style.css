@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    border: 1px dashed black;
+    border-radius: 10px;
+    width: fit-content;
+    align-items: center;
+    width: 450px;
+    background-color: rgb(168, 181, 224) ;
+    
+}
+.amount , .person , .calculation , .total {
+    margin: 7px;
+    width: fit-content;
+}
+
+.amount , .person , .total {
+   height: 30px;
+   border: none;
+   border-bottom: 2px solid black;
+   box-sizing: border-box;
+   background-color: rgb (200, 217, 240);
+}
+
+.calculation{
+        background-color:rgb (200, 217, 240);
+        border: none;
+        padding: 7px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        color:grey;
+        cursor: pointer;
+        border-radius: 4px;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        
+}

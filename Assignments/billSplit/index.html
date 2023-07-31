@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Bill</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Split Bill !</h3>
+        <input type="text" placeholder="Enter the amount" class="amount" id="amt">
+        <span id="warning1" style="color: red;"></span><br><br>
+        <input type="text" placeholder="No of person" class="person" id="prn">
+        <span id="warning2" style="color: red;"></span><br>
+        <button class="calculation" id="cal">Calculate</button>
+        <input type="text" placeholder="Total amount per person" class="total" id="ttl">
+        <p id="result"></p> <!-- Element to display the calculated total -->
+    </div>
+    <script src="../billSplit/app.js"></script>
+</body>
+</html>
